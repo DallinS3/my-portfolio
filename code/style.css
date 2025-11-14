@@ -1,7 +1,7 @@
 @import url("https://www.cssfontstack.com/ITC-Franklin-Gothic");
 
 .logo {
-    margin-left: 5px;
+    margin-left: 20px;
     width: 100px;
     background-color: darkgreen;
     align-items: bottom;
@@ -15,11 +15,13 @@ body{
 
 .body {
     display: grid;
-    grid-template-columns: 2fr 10fr;
-    grid-template-rows: 2fr;
+    grid-template-columns: 2fr 1fr 15fr;
+    grid-template-rows: 1fr;
     background-color: black;
     color: green;
+    outline: 2px solid darkgreen;
     font-family: 'ITC-Franklin-Gothic';
+    font-size: large;
     padding: 25px;
     margin: 25px;
     max-width: fit-content;
@@ -27,11 +29,23 @@ body{
 
 .nav-tabs{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 5fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     align-items: center;
     grid-template-rows: 2;
     margin: 5px;
     font-size: x-large;
-    background-color: darkgreen;
-    color: whitesmoke;
+    background-color: black;
+}
+
+a:link {
+    color: green
+}
+a:visited {
+    color: green
+}
+a:hover {
+    color: lawngreen
+}
+a:active {
+    color: lawngreen
 }
